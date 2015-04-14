@@ -1,133 +1,140 @@
-﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+﻿  @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
-#body2{
-  width:60%;
-  margin:auto;
-}
+  #body2{
+    width:72%;
+    margin:auto;
+  }
 
-body{
-  background-image:url(tree_bark.png);
-  border-radius:1em;
-  padding:1em;
-}
+  body{
+    background-image:url(tree_bark.png);
+    border-radius:1em;
+    padding:1em;
+  }
 
-.courseinfo h2{
-  color:#0000CC;
-  font-size:2em;
-  border-bottom:1px solid;
-}
+  .courseinfo h2{
+    color:#0000CC;
+    font-size:2em;
+    border-bottom:1px solid;
+  }
 
-.courseobj h2{
-  color:#EE7700;
-  font-size:2em;
-  font-family:impact;
-}
+  .courseobj h2{
+    color:#EE7700;
+    font-size:2em;
+    font-family:impact;
+  }
 
-.core h3 , .form h3{
-  color:#7700FF;
-  font-size:2em;
-  font-family:Microsoft YaHei;
-}
+  .core h3 , .form h3 ,.use h3{
+    color:#7700FF;
+    font-size:2em;
+    font-family:Microsoft YaHei;
+  }
 
-.core h4{
-  color:black;
+  .core h4{
+    color:black;
+    font-size:20px;
+  }
+
+  .courseinfo h4{
+    width:200px;
+    margin-left:5%;
+    color:#FF8800;
+    font: 16px/1.5 monospace;
+    border-style:inset;
+    border-width:5px;
+    border-color:gray;
+  }
+
+  .courseinfo h3{
+    font-family:cursive, Microsoft JhengHei;
+  }
+
+  #course1 img ,.core img{
+    width:75%;
+    padding:1em;
+    box-sizing:border-box;
+    vertical-align= "middle";
+  }
+
+  #course1{
+    width:100%;
+  }
+
+  .coursedes, .classsch , .required , .core1{
+    list-style-type:none;
+  }
+
+  .course123{
+    margin-left:5%;
+    padding:3px 10px;
+    text-align: center;
+  }
+
+   .classsch>li{
+    padding:3px 10px;
+    text-align: left;
+    font-size:18px;
+  }
+
+  .coursedes>li , .course123{
+  font-family:Microsoft JhengHei;
   font-size:20px;
-}
+  }
+  .coursedes>li:nth-child(odd), .classsch>li:nth-child(even), .course123{
+    background-color:rgba(255,255,0,0.5);
+  }
 
-.courseinfo h4{
-  width:200px;
-  margin-left:5%;
-  color:#FF8800;
-  font: 16px/1.5 monospace;
-  border-style:inset;
-  border-width:5px;
-  border-color:gray;
-}
+  .required{
+    margin-left:auto;
+    margin-right:auto;
+    width:350px;
+    border-style:dashed;
+    border-width:8px;
+    border-color:#8C0044;
+    vertical-align:middle;
+  }
 
-.courseinfo h3{
-  font-family:cursive;
-}
+  .core1{
+    width:85%;
+    border-style:dashed;
+    border-width:8px;
+    border-color:#8C0044;
+    vertical-align:middle;
+    margin-top:8%;
+  }
 
-#course1 img ,.core img{
-  width:75%;
-  padding:1em;
-  box-sizing:border-box;
-  vertical-align= "middle";
-}
+  .required >li {
+    margin:5px;
+  }
 
-#course1{
-  width:100%;
-}
-
-.coursedes, .classsch , .required , .core1{
-  list-style-type:none;
-}
-
-.course123{
-  margin-left:5%;
-  padding:3px 10px;
-  text-align: center;
-}
-
- .classsch>li{
-  padding:3px 10px;
-  text-align: left;
-  font-family:cursive;
-}
-
-.coursedes>li , .course123{
-font-family:Microsoft JhengHei;
-font-size:20px;
-}
-.coursedes>li:nth-child(odd), .classsch>li:nth-child(even), .course123{
-  background-color:rgba(255,255,0,0.5);
-}
-
-.required{
-  margin-left:25%;
-  width:300px;
-  border-style:dashed;
-  border-width:8px;
-  border-color:#8C0044;
-  vertical-align:middle;
-}
-
-.core1{
-  margin-left:15%;
-  width:500px;
-  border-style:dashed;
-  border-width:8px;
-  border-color:#8C0044;
-  vertical-align:middle;
-}
-
-.required >li {
-  margin:5px;
-}
-
-.ref {
-  background-color:rgba(255,0,0,0.5);
-  width:50%;
-  border-style:ridge;
-}
-
-.box:before {
-    position: absolute;
-    z-index: -1;
-    content: "";
-    top: 0px;
-    left: 0px;
-    width: 33%;
-    height: 25%;
-    box-shadow: -10px -10px 15px rgba(0,0,0,0.5);
-    -webkit-transform: rotate(7deg) translate(20px,25px) skew(20deg);
-     -moz-transform: rotate(7deg) translate(20px,25px) skew(20deg);
-     -ms-transform: rotate(7deg) translate(20px,25px) skew(20deg);
-     -o-transform: rotate(7deg) translate(20px,25px) skew(20deg);
-     transform: rotate(7deg) translate(20px,25px) skew(20deg);
-    }
+  .ref {
+   margin-left:25%;
+    background-color:rgba(255,0,0,0.5);
+    width:57%;
+    border-style:ridge;
+  }
 
 
-hr{
-  height:10px;
-}
+  .obj, .obj2 , .cap{
+    text-align: center;
+  }
+
+
+  .box:before {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      top: 0px;
+      left: 0px;
+      width: 33%;
+      height: 25%;
+      box-shadow: -10px -10px 15px rgba(0,0,0,0.5);
+      -webkit-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+       -moz-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+       -ms-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+       -o-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+       transform: rotate(7deg) translate(20px,25px) skew(20deg);
+  }
+
+  hr{
+    height:10px;
+  }
