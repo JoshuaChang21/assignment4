@@ -1,0 +1,43 @@
+#body2{
+  width:60%;
+  margin:auto;
+}
+
+#what{
+  width:75%;
+  font-family:cursive;
+  font-size:25px;
+  height:40px;
+  margin-left:30px;
+}
+
+#what4{
+  width:75%;
+  font-family:cursive;
+  font-size:25px;
+  height:40px;
+  margin-left:30px; 
+}
+
+#what6{
+  width:75%;
+  font-family:cursive;
+  font-size:25px;
+  height:40px;
+  margin-left:30px; 
+}
+
+#what7{
+  width:75%;
+  font-family:cursive;
+  font-size:25px;
+  height:40px;
+  margin-left:30px; 
+}
+
+#button {
+  color: #900;
+  font-weight: bold;
+  font-size: 50%;
+  text-transform: uppercase;
+}
